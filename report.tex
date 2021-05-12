@@ -1,30 +1,55 @@
 %!TEX program = xelatex
-\documentclass[a4paper,12pt]{ctexart}
-\setCJKfamilyfont{matisse}{FOT-Matisse Pro B}
+\documentclass[a4paper,12pt]{article}
+\usepackage{xeCJK}
+\setCJKmainfont[BoldFont={FOT-Matisse Pro B}]{Source Han Serif}
+\setCJKsansfont{Source Han Sans}
+\setCJKfamilyfont{matisseL}{FOT-Matisse Pro L}
+\setCJKfamilyfont{matisse}{FOT-Matisse Pro M}
+\setCJKfamilyfont{matisseDB}{FOT-Matisse Pro DB}
+\setCJKfamilyfont{matisseB}{FOT-Matisse Pro B}
+\setCJKfamilyfont{matisseEB}{FOT-Matisse Pro EB}
+\setCJKfamilyfont{matisseUB}{FOT-Matisse Pro UB}
+\newcommand{\matisseL}{\CJKfamily{matisseL}}
 \newcommand{\matisse}{\CJKfamily{matisse}}
+\newcommand{\matisseDB}{\CJKfamily{matisseDB}}
+\newcommand{\matisseB}{\CJKfamily{matisseB}}
+\newcommand{\matisseEB}{\CJKfamily{matisseEB}}
+\newcommand{\matisseUB}{\CJKfamily{matisseUB}}
 \usepackage[framemethod=tikz]{mdframed}
 \newcommand{\version}{229}
 \begin{document}
 \begin{titlepage}
     \begin{center}
         \begin{mdframed}[align=center,userdefinedwidth=98pt,outerlinewidth=1pt,roundcorner=5pt,innertopmargin=4pt,innerbottommargin=4pt,innerleftmargin=0pt,innerrightmargin=0pt]
-            \centering\resizebox{90pt}{36pt}{\Huge\matisse 超機密}
+            \centering\resizebox{90pt}{36pt}{\textbf{超機密}}
         \end{mdframed}
-        \resizebox{300pt}{60pt}{\Huge\matisse 人類補完計画}\vspace{15pt}
+        \resizebox{300pt}{60pt}{\textbf{人類補完計画}}\vspace{15pt}
 
-        \resizebox{25pt}{30pt}{\Huge\matisse 第}\hspace{-4pt}
-        \resizebox{50pt}{30pt}{\textbf{\version}}\hspace{-4pt}
-        \resizebox{150pt}{30pt}{\Huge\matisse 次中間報告書}\vspace{20pt}
+        \resizebox{225pt}{30pt}{\textbf{第}\resizebox{17pt}{10pt}{\textbf{\version}}\textbf{次中間報告書}}\vspace{20pt}
 
         \resizebox{160pt}{12pt}{\textsf{Plan zur komplementarit\"at der Menschiheit}}\\
         \resizebox{80pt}{12pt}{\textsf{\version.Zwischenbericht}}
         \vfill
-        {\large \today}
+        {\large\textbf{時に、西暦2015年}}
     \end{center}
 \end{titlepage}
-\section{序}
-\section{破}
-\section{Q}
-\section{3.0+1.0}
-\subsection{絶賛公開中}
+\section{\matisseB 序}
+English test.\\
+简体中文测试。\\
+繁體中文測試。\\
+日本語テスト。
+\section{\matisseB 破}
+\textsf{English test.}\\
+\textsf{简体中文测试。}\\
+\textsf{繁體中文測試。}\\
+\textsf{日本語テスト。}
+\section{\matisseB Q}
+{\matisseL マティステスト。}\\
+{\matisse マティステスト。}\\
+{\matisseDB マティステスト。}\\
+{\matisseB マティステスト。}\\
+{\matisseEB マティステスト。}\\
+{\matisseUB マティステスト。}
+\section{\matisseB 3.0+1.0}
+\subsection{\matisseB 絶賛公開中}
 \end{document}
