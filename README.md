@@ -5,7 +5,7 @@ This repository (人類補完計画, Jinrui-Hokan-Keikaku) is a `TeX` cover page
 ## Engine & Compiler
 ### XeTeX
 
-XeTeX (/ˈziːtɛx/ ZEE-tekh or /ˈziːtɛk/; see also Pronouncing and writing "TeX") is a TeX typesetting engine using Unicode and supporting modern font technologies such as OpenType, Graphite and Apple Advanced Typography (AAT).[$^\mathrm{[Wikipedia]}$](https://en.wikipedia.org/wiki/XeTeX)
+XeTeX (/ˈziːtɛx/ ZEE-tekh or /ˈziːtɛk/; see also Pronouncing and writing "TeX") is a TeX typesetting engine using Unicode and supporting modern font technologies such as OpenType, Graphite and Apple Advanced Typography (AAT) [[Wikipedia]](https://en.wikipedia.org/wiki/XeTeX).
 
 ### XeLaTeX
 
