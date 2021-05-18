@@ -1,6 +1,6 @@
 # 人類補完計画
 
-This repository (人類補完計画, Jinrui-Hokan-Keikaku) is a `TeX` cover page template.
+This repository is an [Evangelion](https://www.evangelion.co.jp) (エヴァンゲリオン) style `TeX` cover page template.
 
 ## Engine & Compiler
 ### XeTeX
@@ -18,7 +18,7 @@ The corresponding compiler is XeLaTeX, which is **needed** here. For more inform
 
 ### Source Han Serif/Sans (思源宋体/思源黑体 | 思源宋體/思源黑體 | 源ノ明朝/源ノ角ゴシック)
 
-Source Han [Serif](https://github.com/adobe-fonts/source-han-serif)/[Sans](https://github.com/adobe-fonts/source-han-sans) are two sets of OpenType Pan-CJK fonts. You can download the fonts from the links or change the font to whatever you like.
+Source Han [Serif](https://github.com/adobe-fonts/source-han-serif)/[Sans](https://github.com/adobe-fonts/source-han-sans) are two sets of OpenType Pan-CJK fonts. You can download the fonts from the links or change the fonts to whatever you like.
 
 ## License
 
